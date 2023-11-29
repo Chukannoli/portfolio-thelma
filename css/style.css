@@ -2,3 +2,8 @@ html {
 	font-size: var(--font-size-base);
 	font-family: inter;
 }
+
+.main-container-home {
+	background-image: url(../assets/images/concrete2.jpg);
+	height: 100vh;
+}
