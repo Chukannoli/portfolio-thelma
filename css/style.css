@@ -1,6 +1,8 @@
 html {
 	font-size: var(--font-size-base);
 	font-family: inter;
+	font-weight: 300;
+	scroll-behavior: smooth;
 }
 
 .main-container-home {
@@ -25,6 +27,7 @@ html {
 
 .landing-screen h1 {
 	cursor: pointer;
+	font-size: var(--font-size-xl);
 }
 
 .landing-screen span {
@@ -35,4 +38,67 @@ html {
 
 .landing-screen span:hover {
 	top: 55%;
+}
+
+.intro {
+	display: flex;
+	height: 100vh;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.intro-paragraph {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+	gap: 2rem;
+}
+
+.intro-picture {
+	position: relative;
+	height: 60%;
+	width: 20%;
+	background-color: grey;
+
+}
+
+.intro-picture img {
+	position: relative;
+	z-index: 10;
+}
+
+.intro-picture__arrow {
+	position: absolute;
+	top: 0;
+	left: 80%;
+	height: 60%;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-right-radius: 10px;
+	background-color: black;
+	color: white;
+	z-index: 1;
+	transition: 300ms;
+}
+
+.intro-picture__arrow--active {
+	left: 100%;
+}
+
+.link-options {
+	display: flex;
+	font-size: var(--font-size-l);
+	align-items: center;
+	justify-content: space-around;
+	height: 50vh;
+	color: var(--color-accent1);
+}
+
+.link-options a {
+	background-color: var(--color-secondary);
+	padding: 1rem;
 }
