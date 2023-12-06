@@ -79,8 +79,8 @@ html {
 	align-items: center;
 	justify-content: center;
 	border-top-right-radius: 10px;
-	background-color: black;
-	color: white;
+	background-color: var(--color-secondary);
+	color: var(--color-primary);
 	z-index: 1;
 	transition: 300ms;
 }
@@ -209,20 +209,19 @@ html {
 }
 
 .slideshow__dot {
-	height: 0.5rem;
-	width: 0.5rem;
+	height: 0.8rem;
+	width: 0.8rem;
 	border-radius: 100%;
 	background-color: #C3C3C3;
 	cursor: pointer;
 }
 
 .slideshow__dot--current {
-	background-color: #1e1e1e;
+	background-color: var(--color-accent1);
 }
 
 .slideshow__dot:hover {
 	opacity: 0.7;
-	background-color: var(--color-accent1);
 }
 
 .slideshow__dot:active {
