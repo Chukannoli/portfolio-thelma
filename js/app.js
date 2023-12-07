@@ -1,3 +1,8 @@
+// Arrow slide
+
+
+
+
 // Slideshow
 
 const slideshows = document.querySelectorAll('.slideshow');
