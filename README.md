@@ -20,3 +20,4 @@ JavaScript: Interactivity and dynamic elements.
 
 gitHub link: https://github.com/Chukannoli/portfolio-thelma.git
 
+Netlify link: https://main--heroic-crisp-ca164a.netlify.app/
