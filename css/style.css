@@ -297,3 +297,17 @@ html {
 	font-size: var(--font-size-m);
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+	.intro {
+		display: flex;
+		flex-direction: column-reverse;
+		height: 100%;
+		gap: 4rem;
+	}
+
+	.slideshow-container {
+		flex-flow: column nowrap;
+		height: 100vh;
+	}
+}
