@@ -17,3 +17,6 @@ HTML: Structure and content.
 CSS: Styling and layout.
 
 JavaScript: Interactivity and dynamic elements.
+
+gitHub link: https://github.com/Chukannoli/portfolio-thelma.git
+
