@@ -1,0 +1,12 @@
+:root {
+	--font-size-base: 16px;
+	--font-size-m: 1.5rem;
+	--font-size-l: 2rem;
+	--font-size-xl: 3rem;
+
+	--color-primary: #fff;
+	--color-secondary: #000;
+	--color-accent1: #EAF9D9;
+
+	--border-radius-circle: 100%;
+}
